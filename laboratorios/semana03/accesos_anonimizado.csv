@@ -1,0 +1,38 @@
+id,id_persona,semana,franja,area,tipo_empresa,motivo,fecha_valida,hora_laboral
+1,P001,32,Mañana,Obra Norte,Constructora,Supervisión,TRUE,TRUE
+2,P002,32,Mañana,Obra Norte,Constructora,Supervision,TRUE,TRUE
+3,P003,32,Mañana,Oficina Central,Diseño,Entrega De Planos,TRUE,TRUE
+5,P004,32,Noche,Sala De Servidores,Soporte TI,Mantenimiento,TRUE,FALSE
+6,P005,32,Mañana,Oficina Central,,Entrevista,TRUE,TRUE
+7,P006,,Mañana,Obra Sur,Constructora,Supervisión,FALSE,TRUE
+8,P003,32,Mañana,Oficina Central,Diseño,Entrega De Planos,TRUE,TRUE
+9,P007,32,Madrugada,Sala De Servidores,Soporte TI,Mantenimiento,TRUE,FALSE
+10,P008,32,Tarde,Obra Norte,Constructora,Visita Cliente,TRUE,TRUE
+11,P009,32,Mañana,Obra Norte,Constructora,Supervisión,TRUE,TRUE
+12,P010,32,Mañana,Obra Sur,Diseño,Visita Cliente,TRUE,TRUE
+13,P011,32,Tarde,Oficina Central,Soporte TI,Entrega De Planos,TRUE,TRUE
+14,P012,32,Tarde,Sala De Servidores,Constructora,Mantenimiento,TRUE,TRUE
+15,P013,33,Mañana,Obra Norte,Diseño,Supervisión,TRUE,TRUE
+16,P014,33,Mañana,Obra Sur,Soporte TI,Visita Cliente,TRUE,TRUE
+17,P015,33,Tarde,Oficina Central,Constructora,Entrega De Planos,TRUE,TRUE
+18,P016,33,Madrugada,Sala De Servidores,Diseño,Mantenimiento,TRUE,FALSE
+19,P017,,Mañana,Obra Norte,Soporte TI,Supervisión,FALSE,TRUE
+20,P018,33,Mañana,Obra Sur,Constructora,Visita Cliente,TRUE,TRUE
+21,P019,33,Tarde,Oficina Central,Diseño,Entrega De Planos,TRUE,TRUE
+22,P020,34,Tarde,Sala De Servidores,Soporte TI,Mantenimiento,TRUE,TRUE
+23,P021,34,Mañana,Obra Norte,Constructora,Supervisión,TRUE,TRUE
+24,P022,34,Mañana,Obra Sur,Diseño,Visita Cliente,TRUE,TRUE
+25,P023,34,Tarde,Oficina Central,Soporte TI,Entrega De Planos,TRUE,TRUE
+26,P024,36,Tarde,Sala De Servidores,,Mantenimiento,TRUE,TRUE
+27,P025,36,Mañana,Obra Norte,Diseño,Supervisión,TRUE,TRUE
+28,P026,36,Noche,Obra Sur,Soporte TI,Visita Cliente,TRUE,FALSE
+29,P027,36,Tarde,Oficina Central,Constructora,Entrega De Planos,TRUE,TRUE
+30,P028,36,Tarde,Sala De Servidores,Diseño,Mantenimiento,TRUE,TRUE
+31,P029,36,Mañana,Obra Norte,Soporte TI,Supervisión,TRUE,TRUE
+32,P030,37,Mañana,Obra Sur,Constructora,Visita Cliente,TRUE,TRUE
+33,P031,37,Tarde,Oficina Central,Diseño,Entrega De Planos,TRUE,TRUE
+34,P032,37,Tarde,Sala De Servidores,Soporte TI,Mantenimiento,TRUE,TRUE
+35,P033,37,Madrugada,Obra Norte,Constructora,Supervisión,TRUE,FALSE
+36,P034,37,Mañana,Obra Sur,Diseño,Visita Cliente,TRUE,TRUE
+37,P035,37,Tarde,Oficina Central,Soporte TI,Entrega De Planos,TRUE,TRUE
+38,P036,37,Tarde,Sala De Servidores,Constructora,Mantenimiento,TRUE,TRUE
