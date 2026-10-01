@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="ciclo-d3" name="Ciclo de vida D3">
+    <mxGraphModel dx="1800" dy="850" grid="0" gridSize="10" page="0" pageScale="1" pageWidth="1800" pageHeight="850" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Ciclo de vida del dato · Estacionamiento inteligente" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172B4D;fontSize=28;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="35" y="20" width="1650" height="48" />
+        </mxCell>
+        <mxCell id="subtitle" value="D3 — Imágenes del estacionamiento | Diseño propuesto para el prototipo local" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172B4D;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="35" y="77" width="1650" height="32" />
+        </mxCell>
+        <mxCell id="s0" value="Captura" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E9EFF6;strokeColor=#52657A;strokeWidth=2;fontFamily=Arial;fontSize=21;fontStyle=1;fontColor=#172B4D;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="35" y="155" width="255" height="64" />
+        </mxCell>
+        <mxCell id="t0" value="&lt;b&gt;Qué ocurre:&lt;/b&gt; La cámara local obtiene imágenes de los espacios; pueden aparecer rostros o placas.&lt;br&gt;&lt;br&gt;&lt;b&gt;Responsable:&lt;/b&gt; Encargado de datos&lt;br&gt;&lt;br&gt;&lt;b&gt;Control:&lt;/b&gt; Prueba con participantes que autorizan la captura, aviso visible y encuadre mínimo." style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172B4D;fontSize=17;verticalAlign=top;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="35" y="241" width="255" height="275" />
+        </mxCell>
+        <mxCell id="d0" value="D3" style="rounded=0;html=1;fillColor=#FDE8E8;strokeColor=#C62828;strokeWidth=2;fontFamily=Arial;fontSize=20;fontStyle=1;fontColor=#C62828;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="128" y="555" width="70" height="40" />
+        </mxCell>
+        <mxCell id="s1" value="Almacenamiento" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E9EFF6;strokeColor=#52657A;strokeWidth=2;fontFamily=Arial;fontSize=21;fontStyle=1;fontColor=#172B4D;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="317" y="155" width="255" height="64" />
+        </mxCell>
+        <mxCell id="t1" value="&lt;b&gt;Qué ocurre:&lt;/b&gt; Las imágenes originales se guardan temporalmente en la computadora local.&lt;br&gt;&lt;br&gt;&lt;b&gt;Responsable:&lt;/b&gt; Administrador del sistema&lt;br&gt;&lt;br&gt;&lt;b&gt;Control:&lt;/b&gt; Disco cifrado y acceso exclusivo por rol; imágenes excluidas de respaldos." style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172B4D;fontSize=17;verticalAlign=top;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="317" y="241" width="255" height="275" />
+        </mxCell>
+        <mxCell id="d1" value="D3" style="rounded=0;html=1;fillColor=#FDE8E8;strokeColor=#C62828;strokeWidth=2;fontFamily=Arial;fontSize=20;fontStyle=1;fontColor=#C62828;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="410" y="555" width="70" height="40" />
+        </mxCell>
+        <mxCell id="flow1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#64748B;" edge="1" parent="1" source="s0" target="s1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="risk1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#C62828;" edge="1" parent="1" source="d0" target="d1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="s2" value="Uso" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E9EFF6;strokeColor=#52657A;strokeWidth=2;fontFamily=Arial;fontSize=21;fontStyle=1;fontColor=#172B4D;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="599" y="155" width="255" height="64" />
+        </mxCell>
+        <mxCell id="t2" value="&lt;b&gt;Qué ocurre:&lt;/b&gt; Se ocultan rostros y placas antes de que el modelo local detecte espacios ocupados.&lt;br&gt;&lt;br&gt;&lt;b&gt;Responsable:&lt;/b&gt; Encargado de procesamiento&lt;br&gt;&lt;br&gt;&lt;b&gt;Control:&lt;/b&gt; Verificar el ocultamiento; usar solo para ocupación y registrar accesos." style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172B4D;fontSize=17;verticalAlign=top;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="599" y="241" width="255" height="275" />
+        </mxCell>
+        <mxCell id="d2" value="D3" style="rounded=0;html=1;fillColor=#FDE8E8;strokeColor=#C62828;strokeWidth=2;fontFamily=Arial;fontSize=20;fontStyle=1;fontColor=#C62828;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="692" y="555" width="70" height="40" />
+        </mxCell>
+        <mxCell id="flow2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#64748B;" edge="1" parent="1" source="s1" target="s2">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="risk2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#C62828;" edge="1" parent="1" source="d1" target="d2">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="s3" value="Compartición" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E9EFF6;strokeColor=#52657A;strokeWidth=2;fontFamily=Arial;fontSize=21;fontStyle=1;fontColor=#172B4D;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="881" y="155" width="255" height="64" />
+        </mxCell>
+        <mxCell id="t3" value="&lt;b&gt;Qué ocurre:&lt;/b&gt; D3 permanece local. Solo se muestra el ID del espacio y su disponibilidad.&lt;br&gt;&lt;br&gt;&lt;b&gt;Responsable:&lt;/b&gt; Encargado de programación&lt;br&gt;&lt;br&gt;&lt;b&gt;Control:&lt;/b&gt; Bloquear envíos externos de imágenes y verificar que la salida no permita identificar personas." style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172B4D;fontSize=17;verticalAlign=top;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="881" y="241" width="255" height="275" />
+        </mxCell>
+        <mxCell id="d3" value="D3" style="rounded=0;html=1;fillColor=#FDE8E8;strokeColor=#C62828;strokeWidth=2;fontFamily=Arial;fontSize=20;fontStyle=1;fontColor=#C62828;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="974" y="555" width="70" height="40" />
+        </mxCell>
+        <mxCell id="flow3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#64748B;" edge="1" parent="1" source="s2" target="s3">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="risk3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#C62828;" edge="1" parent="1" source="d2" target="d3">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="s4" value="Retención" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E9EFF6;strokeColor=#52657A;strokeWidth=2;fontFamily=Arial;fontSize=21;fontStyle=1;fontColor=#172B4D;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1163" y="155" width="255" height="64" />
+        </mxCell>
+        <mxCell id="t4" value="&lt;b&gt;Qué ocurre:&lt;/b&gt; D3 se conserva hasta 24 h desde la captura para revisar errores; plazo propuesto.&lt;br&gt;&lt;br&gt;&lt;b&gt;Responsable:&lt;/b&gt; Administrador del sistema&lt;br&gt;&lt;br&gt;&lt;b&gt;Control:&lt;/b&gt; Vencimiento automático y revisión diaria; incluir originales y versiones procesadas." style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172B4D;fontSize=17;verticalAlign=top;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1163" y="241" width="255" height="275" />
+        </mxCell>
+        <mxCell id="d4" value="D3" style="rounded=0;html=1;fillColor=#FDE8E8;strokeColor=#C62828;strokeWidth=2;fontFamily=Arial;fontSize=20;fontStyle=1;fontColor=#C62828;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1256" y="555" width="70" height="40" />
+        </mxCell>
+        <mxCell id="flow4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#64748B;" edge="1" parent="1" source="s3" target="s4">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="risk4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#C62828;" edge="1" parent="1" source="d3" target="d4">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="s5" value="Eliminación" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E9EFF6;strokeColor=#52657A;strokeWidth=2;fontFamily=Arial;fontSize=21;fontStyle=1;fontColor=#172B4D;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1445" y="155" width="255" height="64" />
+        </mxCell>
+        <mxCell id="t5" value="&lt;b&gt;Qué ocurre:&lt;/b&gt; Al vencer el plazo se borran D3, sus versiones y archivos temporales locales.&lt;br&gt;&lt;br&gt;&lt;b&gt;Responsable:&lt;/b&gt; Administrador del sistema&lt;br&gt;&lt;br&gt;&lt;b&gt;Control:&lt;/b&gt; Borrado seguro compatible con el medio; verificar el resultado y registrar la eliminación." style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172B4D;fontSize=17;verticalAlign=top;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1445" y="241" width="255" height="275" />
+        </mxCell>
+        <mxCell id="d5" value="D3" style="rounded=0;html=1;fillColor=#FDE8E8;strokeColor=#C62828;strokeWidth=2;fontFamily=Arial;fontSize=20;fontStyle=1;fontColor=#C62828;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1538" y="555" width="70" height="40" />
+        </mxCell>
+        <mxCell id="flow5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#64748B;" edge="1" parent="1" source="s4" target="s5">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="risk5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#C62828;" edge="1" parent="1" source="d4" target="d5">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="legend" value="Rojo: recorrido de D3, incluidas sus versiones procesadas, hasta su eliminación." style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172B4D;fontSize=18;fontColor=#C62828;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="35" y="619" width="1650" height="36" />
+        </mxCell>
+        <mxCell id="outside" value="Terceros externos: 0. No se envían imágenes a modelos en la nube ni servidores de terceros. Draw.io documenta el proceso; no recibe las imágenes del estacionamiento." style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172B4D;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="35" y="676" width="1665" height="62" />
+        </mxCell>
+        <mxCell id="answer" value="Primera salida del control de la organización: ninguna en este diseño. En Compartición se bloquea la salida de D3 y se limita la información a espacio y disponibilidad. Se debe comprobar con pruebas de salida y revisión del tráfico de red." style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#172B4D;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="35" y="758" width="1665" height="68" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
