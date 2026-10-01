@@ -43,3 +43,23 @@ Si la matriz tuviera acciones que el diagrama no contempla, estaría prometiendo
 - Se verificó la presencia de C01–C11 en el archivo actualizado y su correspondencia con A1–A11.
 - Se aplicó la edición en Draw.io y se exportó de nuevo a PNG con la opción de incluir el diagrama editable activada.
 - Se revisó visualmente la imagen para comprobar que los textos, etapas y flechas no se superponen ni quedan cortados.
+
+## Parte 5 — Reflexión final
+
+### 1. Terceros y posible filtración
+
+En mi diagrama aparecieron **cero terceros que reciban D3**, las imágenes del estacionamiento. El procesamiento es local y la app solo muestra el ID y la disponibilidad del cajón. Draw.io sirve para documentar el proceso y GitHub guarda los entregables; ninguno recibe las imágenes reales D3 en este diseño. Por eso no puedo señalar una filtración de un tercero como si ese flujo ya existiera.
+
+Si después incorporara un servicio externo para procesar o guardar D3, la primera salida del control directo ocurriría en **Compartición**, y la filtración podría producirse mientras el proveedor lo almacena o utiliza. No necesariamente se detectaría de inmediato: harían falta registros, supervisión del flujo y aviso del proveedor. Mi control C11 limita hoy el daño al bloquear el envío de imágenes y permitir solo ID y estado del cajón; además, la política prohíbe subir D3 real incluso difuminado. El plazo corto y el borrado de C07 reducen la cantidad de imágenes conservadas localmente, pero no garantizan borrar copias que un tercero ya hubiera recibido. Cualquier integración exigiría revisar antes el diagrama, la matriz y el proveedor.
+
+### 2. Marco más exigente y escenario europeo
+
+La **LFPDPPP de México** resultó más exigente para mi proyecto en términos de obligaciones actuales: mi matriz tiene cinco filas marcadas como «Obligatorio» en esa columna —consentimiento, aviso de privacidad, proporcionalidad, retención/eliminación y seguridad/confidencialidad—. Esto ocurre porque D3 puede identificar personas aunque el objetivo sea detectar cajones. NIST contiene más recomendaciones de gestión, pero son voluntarias; en la Ley de IA de la UE no identifiqué un vínculo que la haga aplicable al prototipo mexicano.
+
+En mi matriz no hay celdas «Recomendado» en la columna de la Ley de IA de la UE, así que **no habría un cambio literal automático de «Recomendado» a «Obligatorio»**. Usarlo en Europa exigiría reevaluar su ámbito y clasificación: un detector de ocupación no se vuelve de alto riesgo solo por cambiar de país. Si una ampliación quedara clasificada como alto riesgo, medidas que hoy adopté como recomendaciones —gestión documentada de riesgos, supervisión humana y examen y mitigación de sesgos en los datos— pasarían a ser exigencias bajo los supuestos de los arts. 9, 14 y 10.2 f–g, con obligaciones según el rol. Si se incorporara interacción directa con IA, también habría que evaluar el deber de informar del art. 50.1 y sus excepciones. NIST seguiría siendo voluntario. Además, habría que agregar a la revisión la normativa europea de protección de datos; la Ley de IA no sustituye ese análisis. Referencia de contraste: [Reglamento (UE) 2024/1689, arts. 2, 6, 9, 10, 14 y 50](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32024R1689).
+
+### 3. Criterio para usar modelos generativos
+
+No puedo afirmar con certeza que antes hubiera pegado datos reales en un modelo generativo: eso sería suponer una conducta que este laboratorio no documenta. Lo que sí puedo explicar es el criterio que ahora usaré: antes de pegar información revisaré qué contiene, si permite identificar a alguien y a qué servicio saldrá. Que un dato sea útil para una tarea no basta para autorizar su envío.
+
+La evidencia es concreta: el inventario clasifica D3 como personal cuando aparecen rostros o placas; el diagrama mantiene D3 local y muestra cero terceros; la acción A11 y el control C11 bloquean su salida; y la sección 5 de la política prohíbe enviarlo a ChatGPT, Gemini, DeepSeek, Dify u otros servicios externos incluso difuminado. Para las semanas 5 a 13 usaré imágenes ficticias y datos no personales previamente revisados. También revisaré metadatos, registros y conexiones de agentes, porque ocultar un rostro o borrar un nombre no garantiza que la información deje de identificar a una persona.
