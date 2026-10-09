@@ -1,0 +1,57 @@
+Seguridad de una red universitaria
+
+Documento ficticio para el laboratorio de Inteligencia Artificial Aplicada
+
+1. Alcance y organización
+
+La seguridad de una red universitaria requiere medidas técnicas y procedimientos claros para proteger la información. Cada usuario debe contar con una cuenta individual y permisos limitados según sus actividades. Los administradores deben actualizar los sistemas, revisar los registros y mantener copias de respaldo verificadas. También es necesario separar las redes de estudiantes, docentes y visitantes para reducir posibles riesgos. Ante un incidente, el equipo responsable debe identificar el origen, contener la amenaza y recuperar los servicios afectados. La capacitación continua ayuda a reconocer mensajes fraudulentos y evita errores comunes que podrían comprometer la disponibilidad de los recursos digitales institucionales.
+
+Este documento describe un escenario ficticio para el laboratorio de Inteligencia Artificial Aplicada. La Universidad Horizonte cuenta con tres edificios, dos laboratorios de informática y una biblioteca digital. Su red ofrece acceso a plataformas educativas, archivos de práctica y aplicaciones administrativas simuladas. Todos los nombres, identificadores y procedimientos se crearon con fines didácticos. El texto no representa una norma oficial ni contiene información personal de una institución real.
+
+El proyecto interno recibe el nombre de Faro Azul y utiliza el identificador de referencia HU-482. Su objetivo es mantener disponibles los servicios educativos y limitar el acceso indebido a los recursos compartidos. La coordinación del proyecto corresponde al Comité de Tecnología Académica. Para los ejercicios de recuperación de información, estos datos deben conservarse exactamente como aparecen en este documento.
+
+El equipo de infraestructura administra los dispositivos de red y mantiene su inventario. El equipo de soporte recibe reportes de fallas y orienta a los usuarios. La coordinación académica comunica los cambios que afectan las clases. Cada área registra las decisiones relevantes en una bitácora común. Cuando una responsabilidad cambia, la asignación se actualiza antes de entregar las credenciales o permitir nuevas actividades.
+
+El inventario incluye el nombre del equipo, su ubicación, la función que cumple y el área responsable. También identifica el sistema operativo y la fecha de la última revisión. Los dispositivos retirados se marcan como inactivos para evitar confundirlos con equipos disponibles. Una revisión mensual permite detectar registros incompletos y recursos que se conectaron sin pasar por el procedimiento de incorporación.
+
+2. Acceso y separación de redes
+
+Las cuentas son individuales y deben asociarse a una función definida. En este escenario no se permiten cuentas compartidas para tareas administrativas. Los permisos se conceden según las actividades necesarias y se revisan cuando un usuario cambia de función. La baja de una cuenta incluye la revocación de sesiones y la revisión de los recursos que estaban bajo su responsabilidad. La autenticación multifactor se exige para los accesos administrativos del proyecto.
+
+La infraestructura se divide en tres segmentos lógicos: Aula, Gestión e Invitados. Aula permite utilizar los servicios educativos y los laboratorios. Gestión se reserva para las aplicaciones administrativas simuladas. Invitados proporciona salida a internet sin acceso directo a los recursos internos. La comunicación entre segmentos se autoriza mediante reglas documentadas y limitadas a los servicios que realmente se necesitan.
+
+Cada solicitud de acceso indica el recurso requerido, la actividad que la justifica y su duración prevista. El responsable del recurso revisa la solicitud y deja constancia de su decisión. Los permisos temporales incluyen una fecha de vencimiento. Una ampliación necesita una nueva revisión. El equipo de soporte verifica que el acceso funcione sin conceder privilegios adicionales para resolver rápidamente una dificultad.
+
+Los dispositivos nuevos se registran antes de conectarse al segmento correspondiente. El personal responsable verifica su configuración básica y el estado de las actualizaciones. Los equipos utilizados para prácticas se mantienen separados de los servicios administrativos. Las pruebas académicas solo se realizan sobre recursos preparados para ese propósito y dentro del alcance acordado por el docente.
+
+La revisión de permisos del escenario se realiza el primer lunes de cada mes. El registro de excepciones utiliza la etiqueta ACC-27 y conserva una explicación de cada autorización especial. Ninguna excepción se interpreta como una autorización permanente. Al finalizar la revisión, el equipo compara las cuentas activas con las funciones vigentes y documenta los ajustes pendientes para la siguiente reunión.
+
+Los usuarios reciben instrucciones para proteger sus credenciales y reportar solicitudes sospechosas. Los mensajes de soporte nunca piden compartir contraseñas por correo. Si una cuenta presenta actividad inesperada, el usuario debe comunicarlo mediante el canal institucional definido. El código de verificación interno de este documento es AZUL-7342. El personal encargado verifica el reporte y aplica el procedimiento de incidentes sin divulgar datos de otras cuentas.
+
+3. Mantenimiento y recuperación
+
+El mantenimiento comienza con una revisión del inventario y de las actualizaciones disponibles. El equipo identifica los servicios afectados por cada cambio y prepara una forma de volver al estado anterior. Las modificaciones se prueban primero en un entorno de práctica. Si la prueba muestra fallas, el cambio se detiene y se registra el problema antes de programar otra intervención.
+
+En la planificación ficticia, la ventana de mantenimiento está fijada los miércoles de 19:00 a 21:00. El aviso describe qué servicios podrían interrumpirse y a quién contactar si surge una dificultad. Las actividades se registran con hora de inicio, resultado y responsable. Al terminar, se comprueba el funcionamiento de los servicios y se informa si queda alguna limitación pendiente.
+
+Las copias de respaldo cubren los archivos de configuración y los materiales académicos simulados. Se conserva una copia separada del entorno principal y se restringe su acceso. El equipo comprueba que los archivos puedan recuperarse, porque la existencia de una copia no garantiza que sea utilizable. Las pruebas emplean información ficticia y no sustituyen una evaluación de necesidades reales.
+
+Para este laboratorio, la política de ejemplo establece una copia diaria a las 02:30 y una retención de treinta días. El objetivo de recuperación del servicio de biblioteca es de cuatro horas. La pérdida máxima de información aceptada en el escenario es de veinticuatro horas. Estos valores son supuestos del ejercicio y no recomendaciones universales para todas las instituciones.
+
+La prueba de restauración se realiza en un sistema aislado. Primero se selecciona una copia y se verifica su fecha. Después se recuperan los archivos y se comprueba que las aplicaciones puedan utilizarlos. El informe identifica errores, tiempos observados y acciones correctivas. Si una copia falla, el equipo investiga la causa y repite la prueba después de corregirla.
+
+La supervisión diaria revisa la disponibilidad de los servicios y los eventos relevantes de acceso. Una alerta debe incluir suficiente contexto para distinguir una falla técnica de una posible actividad indebida. Los registros se protegen contra modificaciones no autorizadas y se revisan únicamente por personal asignado. La recopilación evita datos personales innecesarios y respeta el carácter ficticio de este entorno de aprendizaje.
+
+4. Incidentes y evaluación del proyecto
+
+Un incidente puede comenzar con una alerta automática o con un reporte de un usuario. El equipo registra la hora, el servicio afectado y los síntomas observados. Antes de concluir que existe un ataque, verifica la información disponible y considera explicaciones alternativas. La prioridad se determina según el alcance de la interrupción y la importancia del servicio para las actividades académicas.
+
+La respuesta sigue cuatro etapas: identificación, contención, recuperación y revisión. Durante la identificación se reúnen los datos necesarios para comprender el evento. La contención limita su propagación mediante acciones proporcionales y autorizadas. La recuperación busca restablecer los servicios de forma controlada. Finalmente, la revisión documenta lo aprendido y propone mejoras que puedan verificarse en ejercicios posteriores.
+
+En el simulacro del proyecto Faro Azul, el código de incidente es SIM-64. La situación consiste en una cuenta de práctica que intenta acceder repetidamente a un recurso fuera de su segmento. El objetivo es comprobar que las reglas bloqueen el acceso y que el equipo registre la alerta. No se utilizan cuentas reales ni se realizan pruebas sobre sistemas externos.
+
+La comunicación del incidente debe ser clara y evitar conclusiones sin evidencia. Los avisos explican el servicio afectado, las acciones que deben seguir los usuarios y el momento previsto para una actualización. Los detalles técnicos se conservan en el registro interno del ejercicio. Una vez recuperado el servicio, el equipo verifica su funcionamiento antes de dar el incidente por cerrado.
+
+La evaluación mensual considera tres indicadores: porcentaje de equipos inventariados, proporción de restauraciones exitosas y tiempo de atención de incidentes simulados. Cada indicador debe indicar su periodo de medición y la fuente de los datos. Si una medición está incompleta, se señala la limitación. El equipo compara resultados observados con los objetivos del escenario y explica cualquier diferencia relevante.
+
+Para el laboratorio de modelos generativos, este documento sirve como entrada común en pruebas de contexto. Las preguntas pueden consultar el identificador del proyecto, los nombres de los segmentos, el horario de mantenimiento o el código del simulacro. Las respuestas se comparan con el texto original. Un error aislado no demuestra por sí mismo que se haya superado la ventana de contexto; también deben registrarse el tamaño de la entrada y las condiciones del ensayo.
