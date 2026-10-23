@@ -1,0 +1,20 @@
+﻿Iteración,Entrada,Criterio 1,Criterio 2,Criterio 3,Total,Observación,Tipo de prueba
+0,1,2,0,0,2,Incluye los seis campos. Formato distinto. Exige acceso al baño desde zona común sin que la entrada lo solicite. Las áreas objetivo se consideran propuestas.,Evaluación original
+0,2,2,0,1,3,"Incluye los seis campos y deja pendientes especialidad, superficie y presupuesto. No inventa esos datos. Faltan las etiquetas y las preguntas exigidas por la rúbrica.",Evaluación original
+0,3,2,0,1,3,"Conserva ambas versiones de superficie, luz y presupuesto y pregunta por ellas. No marca ni pregunta qué significa “amplio”. Faltan las etiquetas exigidas.",Evaluación original
+1,1,2,0,1,3,Conserva los seis campos. Usa listas y secciones distintas. No indica ‘No se requieren aclaraciones’; pide datos adicionales para diseñar. No se detectan requisitos confirmados inventados.,Evaluación original
+1,2,2,0,1,3,"Reconoce especialidad, superficie y presupuesto pendientes sin asignar valores. La tabla no tiene las seis filas requeridas. Faltan las etiquetas exactas y las preguntas de la rúbrica.",Evaluación original
+1,3,2,0,1,3,"Conserva los datos incompatibles, solicita confirmación y pide precisar ‘amplio’. Faltan las etiquetas Contradicción y Ambiguo en los campos y el formato exigido.",Evaluación original
+2,1,2,0,1,3,Enumera los seis campos sin inventar datos. No presenta tabla ni sección de aclaraciones. Falta indicar ‘No se requieren aclaraciones’.,Evaluación original
+2,2,2,0,1,3,"Incluye seis filas, pero la segunda columna se llama ‘Requerimiento registrado’. Identifica los tres datos faltantes sin usar las marcas exactas ni formular preguntas.",Evaluación original
+2,3,2,0,1,3,Registra las contradicciones y la ambigüedad. Usa la columna ‘Información registrada’. No aplica las etiquetas exactas ni pregunta por cada punto pendiente.,Evaluación original
+3,1,2,2,2,6,"Seis campos completos, formato exacto y ‘No se requieren aclaraciones’. Conserva los datos de la entrada.",Evaluación original
+3,2,2,2,1,5,"Detecta y pregunta por los tres datos faltantes. El uso dice ‘especialidad no especificada’ en vez de la etiqueta exacta ‘No especificado’. C3 pierde un punto por cumplimiento literal, no por inventar datos.",Evaluación original
+3,3,2,2,2,6,"Conserva ambas versiones de los tres conflictos, marca Contradicción y Ambiguo y formula cuatro preguntas. Cumple el formato completo.",Evaluación original
+4,1,2,2,2,6,"Conserva los seis campos y todos los datos, cumple tabla y aclaraciones. No incorpora valores del ejemplo.",Evaluación original
+4,2,2,2,1,5,"Reconoce especialidad, superficie y presupuesto faltantes y pregunta por ellos. Persiste ‘especialidad no especificada’ en vez de la etiqueta exacta ‘No especificado’. No inventa datos ni copia valores del ejemplo.",Evaluación original
+4,3,2,2,2,6,"Conserva las versiones contradictorias, aplica las etiquetas y pregunta por los tres conflictos y por ‘amplio’. No copia datos del ejemplo.",Evaluación original
+5,1,2,2,2,6,"Incluye análisis de tres viñetas, tabla completa y ausencia de aclaraciones. La distribución y los costos se mantienen fuera del alcance. Se acepta el análisis previo para revisión humana.",Evaluación original
+5,2,2,2,2,6,"Identifica los datos faltantes, usa ‘No especificado’ también en la especialidad y formula preguntas. Tabla y análisis cumplen. La segunda viñeta repite un requisito explícito; no añade una inferencia nueva.",Evaluación original
+5,3,2,2,2,6,"Separa datos, cálculo verificable de 30 m² y puntos por confirmar. Conserva ambas versiones de cada conflicto, marca ambigüedad y pregunta por los cuatro puntos pendientes.",Evaluación original
+5,4,2,2,2,6,"Calcula 28 m² y $210,000 MXN; conserva las dos partidas y el uso del baño existente. No inventa datos ni confunde las partidas con contradicciones.",Robustez
