@@ -1,0 +1,7 @@
+﻿Iteración,Técnica aplicada,Criterio 1,Criterio 2,Criterio 3,Total,Observación
+0,Línea base (zero-shot),6,0,2,8,Campos presentes; formatos distintos y un requisito añadido sin confirmación.
+1,Rol,6,0,3,9,"Mejora C3; vocabulario arquitectónico, pero faltan formato y etiquetas."
+2,Rol + contexto,6,0,3,9,No cambia el total: C1 ya estaba en su máximo.
+3,Rol + contexto + formato,6,6,5,17,Mayor salto: +8 puntos. C2 sube 6 y C3 sube 2.
+4,Anterior + ejemplos (few-shot),6,6,5,17,No cambia el puntaje; no se copiaron datos del ejemplo.
+5,Anterior + cadena de razonamiento,6,6,6,18,Análisis aceptado para revisión humana; etiquetas completas.
