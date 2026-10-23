@@ -5,8 +5,11 @@
 | P01 | Generar datos sobre regulación mexicana para verificar | ChatGPT; versión no registrada | v1 | [P01_regulacion_ciberseguridad.md](P01_regulacion_ciberseguridad.md) |
 | P02 | Repetir la exploración de la semana 1 | Gemma 4 26B A4B IT (previsto) | Registro v1; omitido | [P02_exploracion_semana_1.md](P02_exploracion_semana_1.md) |
 | P03 | Identificar riesgos al preparar documentación con IA | Gemma 4 26B A4B IT | v1 | [P03_riesgos_documentacion.md](P03_riesgos_documentacion.md) |
+| P04 | Laboratorio 7: ficha de requisitos de consultorios (caso didáctico de Arquitectura) | Codex; modelo predeterminado no identificado | v1.0 | [Registro P04 y tabla de iteraciones](../../laboratorios/semana06/portafolio_prompts.md) |
 
 ## Estado y alcance
+
+- P04: caso didáctico de la semana 7; 18/18 en las tres entradas y 6/6 en una prueba nueva. No valida el dominio del estacionamiento.
 
 - P01: respuesta original de la Parte 1 y 15 afirmaciones verificadas en la Parte 2; tasa observada de error: 0 %.
 - P02: omitido por indicación del usuario. No tiene ejecución, tres afirmaciones verificadas ni tasa calculable; ese requisito del laboratorio queda pendiente.
